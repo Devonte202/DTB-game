@@ -170,7 +170,7 @@ Matter.Events.on(engine, 'collisionStart', function(event) {
 	var aElm = event.pairs[0].bodyA.id;
 	var bElm = event.pairs[0].bodyB.id;
 	  if(aElm === 1 && bElm === 3){
-	    window.location = 'https://devonte202.github.io/DTB-game/level3';
+	    window.location = 'https://devonte202.github.io/hit-the-alien/level3';
 	  }
 });
 
