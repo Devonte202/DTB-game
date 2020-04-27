@@ -143,7 +143,7 @@ Matter.Events.on(engine, 'collisionStart', function(event) {
 	var aElm = event.pairs[0].bodyA.id;
 	var bElm = event.pairs[0].bodyB.id;
 	  if(aElm === 1 && bElm === 3){
-	    main.innerHTML = '<a href="https://devonte202.github.io/DTB-game/index.html">Congratulations, You won! Click Me to Play Again</a>'
+	    main.innerHTML = '<a href="https://devonte202.github.io/hit-the-alien/index.html">Congratulations, You won! Click Me to Play Again</a>'
 	  }
 });
 
